@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title> Grilled - Working Hours </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background: linear-gradient(to bottom, #B72D0C, #94210C);
+                margin: 0;
+                padding-bottom: 50px;
+            }
+            a{
+                display: block;
+                text-align: center;
+                margin-top: 30px;
+                font-family: monospace;
+                color: rgb(227, 226, 226);
+                text-decoration: none;
+                background-color: #7a190ec3;
+                padding: 10px 20px;
+                border-width: 4px;
+                border-color: #a32719c3;
+                border-style: solid;
+            }
+            a:hover {
+                background-color: #e67878f2;
+                color: rgb(0, 0, 0);
+            }
+            h2.title {
+                font-size: 34px;
+                color: rgb(227, 226, 226);
+                font-family: monospace;
+                text-align: center;
+                margin-top: 20px;
+            }
+            p.description {
+                font-family: monospace;
+                font-size: 16px;
+                color: rgb(227, 226, 226);
+                background-color: #7a190ec3; 
+                text-align: center;
+                border-width: 4px;
+                border-color: #a32719c3;
+                border-style: solid;
+                padding: 10px;
+                margin: 20px;
+            }
+            .table-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+            }
+            table.hours-table {
+                font-family: comic monospace, monospace;
+                font-size: 18px;
+                color: rgb(227, 226, 226);
+                background-color: #460f09c3; 
+                border-width: 4px;
+                border-color: #741b11c3;
+                border-style: solid;
+                width: 600px;
+                border-collapse: collapse;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            }
+            table.hours-table th {
+                font-size: 22px;
+                text-align: center;
+                padding: 20px;
+                background-color: #741b11c3;
+                border-bottom: 3px solid #a32719c3;
+            }
+            table.hours-table td {
+                padding: 15px 25px;
+                border-bottom: 1px dashed #741b11c3;
+            }
+            table.hours-table tr:last-child td {
+                border-bottom: none;
+            }
+            .day-col {
+                font-weight: bold;
+                width: 50%;
+            }
+            .time-col {
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="title"> --------------- GRILLED --------------- </h2>
+        <p class="description"> <b> Working Hours </b> <br> Join us for lunch, dinner,
+            or a late-night bite! Here is when our grills are fired up. </p>
+        <hr style= "border: 2px solid #701010; margin-bottom: 30px;">
+        
+        <div class="table-container">
+            <table class="hours-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Hours of Operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="day-col">Monday</td>
+                        <td class="time-col">11:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Tuesday</td>
+                        <td class="time-col">11:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Wednesday</td>
+                        <td class="time-col">11:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Thursday</td>
+                        <td class="time-col">11:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Friday</td>
+                        <td class="time-col">11:00 AM - 12:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Saturday</td>
+                        <td class="time-col">11:00 AM - 12:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td class="day-col">Sunday</td>
+                        <td class="time-col">12:00 PM - 9:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a href="index.html"> Back to Menu </a>
+    </body>
+</HTML>
